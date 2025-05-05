@@ -1,0 +1,38 @@
+img {
+    width: 200px;
+    border-radius: 10px;
+}
+.navbar {
+    background-color: #00497C;
+}
+.nav-link {
+    color: #82B864;
+    font-weight: 800;
+    border-radius: 10px;
+    max-width: 200px;
+}
+.nav-link:hover {
+    background-color: white;
+    color: #63904b;  
+}
+.nav-link:active {
+    background-color: #82B864;
+    color: white;
+}
+.navInput {
+    background-color: white;
+    color: rgb(0, 0, 0);
+    border: solid white 1px;
+    border-radius: 10px;
+    width: 130px;
+    height: 40px;
+    margin-left: 10px;
+}
+.navInput:hover {
+    background-color: #82B864;
+    color: rgb(0, 0, 0);
+}
+.navbar-toggler {
+    border: 2px solid #fff;
+    background-color: transparent;
+  }
