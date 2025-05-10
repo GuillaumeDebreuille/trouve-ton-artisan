@@ -8,16 +8,14 @@ img {
 .nav-link {
     color: #82B864;
     font-weight: 800;
-    border-radius: 10px;
     max-width: 200px;
+    margin-left: 5px;
 }
 .nav-link:hover {
-    background-color: white;
-    color: #63904b;  
+    color: #eeeeee;
 }
 .nav-link:active {
-    background-color: #82B864;
-    color: white;
+    color: rgb(170, 170, 170);
 }
 .navInput {
     background-color: white;
@@ -26,7 +24,6 @@ img {
     border-radius: 10px;
     width: 130px;
     height: 40px;
-    margin-left: 10px;
 }
 .navInput:hover {
     background-color: #82B864;
@@ -35,4 +32,7 @@ img {
 .navbar-toggler {
     border: 2px solid #fff;
     background-color: transparent;
-  }
+}
+.navbar-toggler-icon { 
+    background-image: url("data:image/svg+xml;charset=UTF8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' fill='%23FFFFFF' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M2 12.5h12v-1H2v1zm0-5h12v-1H2v1zm0-5h12v-1H2v1z'/%3E%3C/svg%3E"); 
+}
