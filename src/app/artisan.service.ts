@@ -2,15 +2,23 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 
+export interface Artisan {
+  id: number;
+  nom: string;
+  metier: string;
+  categorie: string;
+  note: number;
+  image: string;
+}
+
 @Injectable({
   providedIn: 'root'
 })
-export class ArtisanService {
-  private dataURL = 'assets/data/artisans.json';
 
+export class ArtisanService {
   constructor(private http: HttpClient) { }
 
-  getArtisans(): Observable<any> {
-    return this.http.get(this.dataURL);
+  getArtisans(): Observable<Artisan[]> {
+    return this.http.get<Artisan[]>('data/artisans.json');
   }
 }
