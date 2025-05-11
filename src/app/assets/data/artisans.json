@@ -1,0 +1,122 @@
+[
+    {
+      "id": 1,
+      "nom": "Entreprise de Construction XYZ",
+      "note": 4.5,
+      "metier": "Constructeur",
+      "image": "img/batiment.jpg",
+      "categorie": "Bâtiment"
+    },
+    {
+      "id": 2,
+      "nom": "Coiffure Élégance",
+      "note": 4.8,
+      "metier": "Coiffeur",
+      "image": "img/services.jpg",
+      "categorie": "Services"
+    },
+    {
+      "id": 3,
+      "nom": "Design Créatif",
+      "note": 4.2,
+      "metier": "Designer",
+      "image": "img/services.jpg",
+      "categorie": "Services"
+    },
+    {
+      "id": 4,
+      "nom": "Boulangerie Delice",
+      "note": 4.7,
+      "metier": "Boulanger",
+      "image": "img/alimentation.jpg",
+      "categorie": "Alimentation"
+    },
+    {
+      "id": 5,
+      "nom": "Menuiserie Artisanale",
+      "note": 4.0,
+      "metier": "Menuisier",
+      "image": "img/fabrication.jpg",
+      "categorie": "Fabrication"
+    },
+    {
+      "id": 6,
+      "nom": "Plomberie Rapide",
+      "note": 4.3,
+      "metier": "Plombier",
+      "image": "img/batiment.jpg",
+      "categorie": "Bâtiment"
+    },
+    {
+      "id": 7,
+      "nom": "Électricité Pro",
+      "note": 4.6,
+      "metier": "Électricien",
+      "image": "img/batiment.jpg",
+      "categorie": "Bâtiment"
+    },
+    {
+      "id": 8,
+      "nom": "Couture Fine",
+      "note": 4.1,
+      "metier": "Tailleur",
+      "image": "img/services.jpg",
+      "categorie": "Services"
+    },
+    {
+      "id": 9,
+      "nom": "Pâtisserie Douceur",
+      "note": 4.9,
+      "metier": "Pâtissier",
+      "image": "img/alimentation.jpg",
+      "categorie": "Alimentation"
+    },
+    {
+      "id": 10,
+      "nom": "Mécanique Précise",
+      "note": 3.9,
+      "metier": "Mécanicien",
+      "image": "img/fabrication.jpg",
+      "categorie": "Fabrication"
+    },
+    {
+      "id": 11,
+      "nom": "Jardinage Vert",
+      "note": 4.4,
+      "metier": "Jardinier",
+      "image": "img/services.jpg",
+      "categorie": "Services"
+    },
+    {
+      "id": 12,
+      "nom": "Peinture Art",
+      "note": 4.7,
+      "metier": "Peintre",
+      "image": "img/batiment.jpg",
+      "categorie": "Bâtiment"
+    },
+    {
+      "id": 13,
+      "nom": "Fromagerie Savoureuse",
+      "note": 4.5,
+      "metier": "Fromager",
+      "image": "img/alimentation.jpg",
+      "categorie": "Alimentation"
+    },
+    {
+      "id": 14,
+      "nom": "Serrurerie Sécurisée",
+      "note": 4.2,
+      "metier": "Serrurier",
+      "image": "img/fabrication.jpg",
+      "categorie": "Fabrication"
+    },
+    {
+      "id": 15,
+      "nom": "Nettoyage Propre",
+      "note": 4.0,
+      "metier": "Agent de Nettoyage",
+      "image": "img/services.jpg",
+      "categorie": "Services"
+    }
+]
