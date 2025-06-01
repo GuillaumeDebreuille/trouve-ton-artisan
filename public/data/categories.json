@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "categorie": "Bâtiment",
+        "image": "img/batiment.jpg"
+    },
+    {
+        "id": 2,
+        "categorie": "Services",
+        "image": "img/batiment.jpg"
+    },
+    {
+        "id": 3,
+        "categorie": "Fabrication",
+        "image": "img/batiment.jpg"
+    },
+    {
+        "id": 4,
+        "categorie": "Alimentation",
+        "image": "img/batiment.jpg"
+    }
+]

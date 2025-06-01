@@ -1,0 +1,21 @@
+<div>
+  <label for="recherche">Rechercher :</label>
+  <input type="text" id="recherche" name="recherche" 
+  placeholder="Artisan" [(ngModel)]="recherche">
+</div>
+
+
+<div *ngFor="let artisan of artisans | nameFilter: recherche">
+
+  <p>{{ artisan.id }}</p>
+  <h2>{{ artisan.name }}</h2>
+  <h3>{{ artisan.specialty }}</h3>
+  <p>{{ artisan.note }}</p>
+  <p>{{ artisan.location }}</p>
+  <p>{{ artisan.about }}</p>
+  <p>{{ artisan.email }}</p>
+  <p>{{ artisan. website}}</p>
+  <p>{{ artisan.category }}</p>
+  <p>{{ artisan.top }}</p>
+
+  </div>

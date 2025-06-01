@@ -4,11 +4,15 @@ import { Observable } from 'rxjs';
 
 export interface Artisan {
   id: number;
-  nom: string;
-  metier: string;
-  categorie: string;
+  name: string;
+  specialty: string;
   note: number;
-  image: string;
+  location: string;
+  about: string;
+  email: string;
+  website: string;
+  category: string;
+  top: boolean;
 }
 
 @Injectable({
