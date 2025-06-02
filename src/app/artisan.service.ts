@@ -13,6 +13,8 @@ export interface Artisan {
   website: string;
   category: string;
   top: boolean;
+  image: string;
+  alt: string;
 }
 
 @Injectable({

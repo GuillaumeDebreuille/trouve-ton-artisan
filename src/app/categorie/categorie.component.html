@@ -7,15 +7,11 @@
 
 <div *ngFor="let artisan of artisans | nameFilter: recherche">
 
-  <p>{{ artisan.id }}</p>
   <h2>{{ artisan.name }}</h2>
   <h3>{{ artisan.specialty }}</h3>
   <p>{{ artisan.note }}</p>
   <p>{{ artisan.location }}</p>
-  <p>{{ artisan.about }}</p>
-  <p>{{ artisan.email }}</p>
-  <p>{{ artisan. website}}</p>
-  <p>{{ artisan.category }}</p>
-  <p>{{ artisan.top }}</p>
+  <img src="{{ artisan.image }}" alt="{{ artisan.alt }}">
+  <a [routerLink]="['/artisan', artisan.id]">Voir profil</a>
 
   </div>

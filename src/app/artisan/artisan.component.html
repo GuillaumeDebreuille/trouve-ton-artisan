@@ -1,0 +1,16 @@
+<div *ngIf="artisan">
+    <p>{{ artisan.id }}</p>
+    <h2>{{ artisan.name }}</h2>
+    <h3>{{ artisan.specialty }}</h3>
+    <p>{{ artisan.note }}</p>
+    <p>{{ artisan.location }}</p>
+    <p>{{ artisan.about }}</p>
+    <p>{{ artisan.email }}</p>
+    <p>{{ artisan. website}}</p>
+    <img src="{{ artisan.image }}" alt="{{ artisan.alt }}">
+  </div>
+  
+  <!-- Message si pas trouvé -->
+  <div *ngIf="!artisan">
+    <p>Artisan non trouvé ou en cours de chargement...</p>
+  </div>

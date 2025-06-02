@@ -4,18 +4,18 @@ import { ArtisanService, Artisan } from '../artisan.service';
 import { ActivatedRoute } from '@angular/router';
 import { NameFilterPipe } from '../pipes/name-filter.pipe';
 import { FormsModule } from '@angular/forms';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-categorie',
   standalone: true,
-  imports: [CommonModule, NameFilterPipe, FormsModule],
+  imports: [CommonModule, NameFilterPipe, FormsModule, RouterModule],
   templateUrl: './categorie.component.html',
   styleUrl: './categorie.component.scss'
 })
 export class CategorieComponent implements OnInit {
   artisans: Artisan[] = [];
   recherche: string ='';
-
   constructor(
     private artisanService: ArtisanService,
     private route: ActivatedRoute 
@@ -23,9 +23,8 @@ export class CategorieComponent implements OnInit {
 
   ngOnInit(): void {
     this.route.url.subscribe(url => {
-      const secteur = url[0].path; // Récupère "batiment", "services", etc.
+      const secteur = url[0].path;
       
-      // Correspondance entre URL et catégorie JSON
       let categorieJson = '';
       switch(secteur) {
         case 'batiment': categorieJson = 'Bâtiment'; break;

@@ -9,7 +9,10 @@
 		"email":"v.bellemare@gmail.com",
 		"website":"https://plomberie-bellemare.com",
 		"category":"Bâtiment",
-		"top": false
+		"top": false,
+		"image": "img/batiment.jpg",
+		"alt": "Image d'un batiment en construction"
+
 	},
 	{
 		"id": "2",
@@ -21,7 +24,9 @@
 		"email":"a.amitee@hotmail.com",
 		"website":"https://lecuyer-couture.com",
 		"category":"Fabrication",
-		"top": false
+		"top": false,
+		"image": "img/fabrication.jpg",
+		"alt": "homme qui travaille le bois"
 	},
 	{
 		"id": "3",
@@ -33,7 +38,9 @@
 		"email":"l.dennos@hotmail.fr",
 		"website":"https://coiffure-leala-chambery.fr",
 		"category":"Services",
-		"top": false
+		"top": false,
+		"image": "img/services.jpg",
+		"alt": "homme qui tient des outils"
 	},
 	{
 		"id": "4",
@@ -45,7 +52,9 @@
 		"email":"chocolaterie-labbe@gmail.com",
 		"website":"https://chocolaterie-labbe.fr",
 		"category":"Alimentation",
-		"top": true
+		"top": true,
+		"image": "img/alimentation.jpg",
+		"alt": "Nourriture"
 	},
 	{
 		"id": "5",
@@ -57,7 +66,9 @@
 		"email":"claude.quinn@gmail.com",
 		"website":"",
 		"category":"Fabrication",
-		"top": false
+		"top": false,
+		"image": "img/fabrication.jpg",
+		"alt": "homme qui travaille le bois"
 	},
 	{
 		"id": "6",
@@ -69,7 +80,9 @@
 		"email":"v-laredoute@gmail.com",
 		"website":"",
 		"category":"Services",
-		"top": false
+		"top": false,
+		"image": "img/services.jpg",
+		"alt": "homme qui tient des outils"
 	},
 	{
 		"id": "7",
@@ -81,7 +94,9 @@
 		"email":"boutot-menuiserie@gmail.com",
 		"website":"https://boutot-menuiserie.com",
 		"category":"Bâtiment",
-		"top": false
+		"top": false,
+		"image": "img/batiment.jpg",
+		"alt": "Image d'un batiment en construction"
 	},
 	{
 		"id": "8",
@@ -93,7 +108,9 @@
 		"email":"contact@cm-graphisme.com",
 		"website":"https://cm-graphisme.com",
 		"category":"Services",
-		"top": false
+		"top": false,
+		"image": "img/services.jpg",
+		"alt": "homme qui tient des outils"
 	},
 	{
 		"id": "9",
@@ -105,7 +122,9 @@
 		"email":"o-salmons@live.com",
 		"website":"",
 		"category":"Bâtiment",
-		"top": true
+		"top": true,
+		"image": "img/batiment.jpg",
+		"alt": "Image d'un batiment en construction"
 	},
 	{
 		"id": "10",
@@ -117,7 +136,9 @@
 		"email":"aupainchaud@hotmail.com",
 		"website":"",
 		"category":"Alimentation",
-		"top": true
+		"top": true,
+		"image": "img/alimentation.jpg",
+		"alt": "Nourriture"
 	},
 	{
 		"id": "11",
@@ -129,7 +150,9 @@
 		"email":"boucherie.dumond@gmail.com",
 		"website":"",
 		"category":"Alimentation",
-		"top": false
+		"top": false,
+		"image": "img/alimentation.jpg",
+		"alt": "Nourriture"
 	},
 	{
 		"id": "12",
@@ -141,7 +164,9 @@
 		"email":"contact@mont-blanc-electricite.com",
 		"website":"https://mont-blanc-electricite.com",
 		"category":"Bâtiment",
-		"top": false
+		"top": false,
+		"image": "img/batiment.jpg",
+		"alt": "Image d'un batiment en construction"
 	},
 	{
 		"id": "13",
@@ -153,7 +178,9 @@
 		"email":"contact@truchon-traiteur.fr",
 		"website":"https://truchon-traiteur.fr",
 		"category":"Bâtiment",
-		"top": false
+		"top": false,
+		"image": "img/batiment.jpg",
+		"alt": "Image d'un batiment en construction"
 	},
 	{
 		"id": "14",
@@ -165,7 +192,9 @@
 		"email":"contact@le-monde-des-fleurs-annonay.fr",
 		"website":"https://le-monde-des-fleurs-annonay.fr",
 		"category":"Services",
-		"top": false
+		"top": false,
+		"image": "img/services.jpg",
+		"alt": "homme qui tient des outils"
 	},
 	{
 		"id": "15",
@@ -177,7 +206,9 @@
 		"email":"r.charbonneau@gmail.com",
 		"website":"",
 		"category":"Services",
-		"top": false
+		"top": false,
+		"image": "img/services.jpg",
+		"alt": "homme qui tient des outils"
 	},
 	{
 		"id": "16",
@@ -189,7 +220,9 @@
 		"email":"e-carigan@hotmail.com",
 		"website":"",
 		"category":"Fabrication",
-		"top": false
+		"top": false,
+		"image": "img/fabrication.jpg",
+		"alt": "homme qui travaille le bois"
 	},
 	{
 		"id": "17",
@@ -201,6 +234,8 @@
 		"email":"sup-hair@gmail.com",
 		"website":"https://sup-hair.fr",
 		"category":"Services",
-		"top": false
+		"top": false,
+		"image": "img/services.jpg",
+		"alt": "homme qui tient des outils"
 	}
 ]
