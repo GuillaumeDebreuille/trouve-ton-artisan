@@ -22,9 +22,21 @@
                 <li class="nav-item"><a class="nav-link" href="/" [routerLink]="['/services']">Services</a></li>
                 <li class="nav-item"><a class="nav-link" href="/" [routerLink]="['/fabrication']">Fabrication</a></li>
                 <li class="nav-item"><a class="nav-link" href="/" [routerLink]="['/alimentation']">Alimentation</a></li>
+                
                 <li class="d-flex align-items-center">
-                    <input type="text" class="form-control me-2" placeholder="Recherche">
-                    <button type="button" class="btn btn-primary">🔍</button>
+                    <input 
+                        type="text" 
+                        class="form-control me-2" 
+                        placeholder="Recherche"
+                        [(ngModel)]="termeBDR"
+                        (keyup.enter)="rechercher()">
+
+                    <button 
+                        type="button" 
+                        class="btn btn-primary"
+                        (click)="rechercher()">
+                    🔍
+                    </button>
                 </li>
             </ul>
         </div>

@@ -2,6 +2,7 @@ import { Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { CategorieComponent } from './categorie/categorie.component';
 import { ArtisanComponent } from './artisan/artisan.component';
+import { ResultatsComponent } from './resultats/resultats.component';
 
 export const routes: Routes = [
     { path: "", component: HomeComponent},
@@ -9,5 +10,6 @@ export const routes: Routes = [
     { path: "services", component: CategorieComponent},
     { path: "fabrication", component: CategorieComponent},
     { path: "alimentation", component: CategorieComponent},
-    { path: "artisan/:id", component: ArtisanComponent}
+    { path: "artisan/:id", component: ArtisanComponent},
+    { path: "artisans", component: ResultatsComponent }
 ];
