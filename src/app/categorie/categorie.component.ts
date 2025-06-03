@@ -16,6 +16,7 @@ import { RouterModule } from '@angular/router';
 export class CategorieComponent implements OnInit {
   artisans: Artisan[] = [];
   recherche: string ='';
+  
   constructor(
     private artisanService: ArtisanService,
     private route: ActivatedRoute 
