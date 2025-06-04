@@ -7,7 +7,7 @@ import { NameFilterPipe } from '../pipes/name-filter.pipe';
 @Component({
   selector: 'app-resultats',
   standalone: true,
-  imports: [CommonModule, RouterModule, NameFilterPipe],
+  imports: [CommonModule, RouterModule],
   templateUrl: './resultats.component.html',
   styleUrl: './resultats.component.scss'
 })
