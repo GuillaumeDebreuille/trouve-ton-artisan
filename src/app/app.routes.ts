@@ -11,7 +11,7 @@ export const routes: Routes = [
     { path: "services", component: CategorieComponent},
     { path: "fabrication", component: CategorieComponent},
     { path: "alimentation", component: CategorieComponent},
-    { path: "artisan/:id", component: ArtisanComponent, data: { prerender: false }},
+    { path: "artisan/:id", component: ArtisanComponent, data: { renderMode: 'client-side' }},
     { path: "artisans", component: ResultatsComponent },
     { path: '**', component: Page404Component }
 ];
