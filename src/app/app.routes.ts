@@ -3,6 +3,7 @@ import { HomeComponent } from './home/home.component';
 import { CategorieComponent } from './categorie/categorie.component';
 import { ArtisanComponent } from './artisan/artisan.component';
 import { ResultatsComponent } from './resultats/resultats.component';
+import { Page404Component } from './page404/page404.component';
 
 export const routes: Routes = [
     { path: "", component: HomeComponent},
@@ -10,6 +11,7 @@ export const routes: Routes = [
     { path: "services", component: CategorieComponent},
     { path: "fabrication", component: CategorieComponent},
     { path: "alimentation", component: CategorieComponent},
-    { path: "artisan/:id", component: ArtisanComponent},
-    { path: "artisans", component: ResultatsComponent }
+    { path: "artisan/:id", component: ArtisanComponent, data: { prerender: false }},
+    { path: "artisans", component: ResultatsComponent },
+    { path: '**', component: Page404Component }
 ];
