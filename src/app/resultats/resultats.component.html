@@ -1,14 +1,15 @@
 <div class="container">
-    <div class="row">
-        <div class="col-lg-4 col-md-6 col-sm-12" *ngFor="let artisan of artisans">
-        
+  <div class="row">
+      <div class="col-lg-4 col-md-6 col-sm-12 artisan" *ngFor="let artisan of artisans">
+        <div class="artisans">
           <h2>{{ artisan.name }}</h2>
           <h3>{{ artisan.specialty }}</h3>
-          <p>{{ artisan.note }}</p>
+          <p>{{ artisan.note }} sur 5 ☆</p>
           <p>{{ artisan.location }}</p>
           <img src="{{ artisan.image }}" alt="{{ artisan.alt }}">
           <a [routerLink]="['/artisan', artisan.id]">Voir profil</a>
-  
         </div>
       </div>
-  </div>
+    </div>
+</div>
+a

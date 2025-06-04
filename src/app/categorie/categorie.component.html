@@ -1,25 +1,27 @@
 
+<div class="container titre">
+  <h3>Secteur</h3>
+  <h1>"{{ route.snapshot.url[0].path }}"</h1>
+</div>
 
-
-<div>
-  <label for="recherche">Rechercher :</label>
+<div class="recherche">
   <input type="text" id="recherche" name="recherche" 
-  placeholder="Artisan" [(ngModel)]="recherche">
+  placeholder="Recherche ton Artisan 🔍" [(ngModel)]="recherche">
 </div>
 
 
 
 <div class="container">
   <div class="row">
-      <div class="col-lg-4 col-md-6 col-sm-12" *ngFor="let artisan of artisans | nameFilter: recherche">
-      
+    <div class="col-lg-4 col-md-6 col-sm-12 artisan" *ngFor="let artisan of artisans | nameFilter: recherche">
+      <div class="artisans">
         <h2>{{ artisan.name }}</h2>
         <h3>{{ artisan.specialty }}</h3>
-        <p>{{ artisan.note }}</p>
+        <p>{{ artisan.note }} sur 5 ☆</p>
         <p>{{ artisan.location }}</p>
         <img src="{{ artisan.image }}" alt="{{ artisan.alt }}">
         <a [routerLink]="['/artisan', artisan.id]">Voir profil</a>
-
       </div>
     </div>
   </div>
+</div>

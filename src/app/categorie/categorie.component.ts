@@ -19,7 +19,7 @@ export class CategorieComponent implements OnInit {
   
   constructor(
     private artisanService: ArtisanService,
-    private route: ActivatedRoute 
+    public route: ActivatedRoute 
   ) {}
 
   ngOnInit(): void {
